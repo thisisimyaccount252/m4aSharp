@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m4aSharp", "m4aSharp\m4aSharp.csproj", "{DBA224BB-1EA5-4049-AD8F-A0E87DA04391}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m4aSharp", "src\m4aSharp\m4aSharp.csproj", "{DBA224BB-1EA5-4049-AD8F-A0E87DA04391}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m4aSharp.Domain", "m4aSharp.Domain\m4aSharp.Domain.csproj", "{CCCE9185-C5EB-4367-BC8A-27878D9771AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m4aSharp.Domain", "src\m4aSharp.Domain\m4aSharp.Domain.csproj", "{CCCE9185-C5EB-4367-BC8A-27878D9771AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{21D98C73-2B86-4F80-812B-8BF248723DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m4aSharp.Domain.Tests", "test\m4aSharp.Domain.Tests\m4aSharp.Domain.Tests.csproj", "{F779D9B0-B918-463A-B036-D1B9916ED555}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,11 +25,18 @@ Global
 		{CCCE9185-C5EB-4367-BC8A-27878D9771AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCE9185-C5EB-4367-BC8A-27878D9771AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCE9185-C5EB-4367-BC8A-27878D9771AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F779D9B0-B918-463A-B036-D1B9916ED555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F779D9B0-B918-463A-B036-D1B9916ED555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F779D9B0-B918-463A-B036-D1B9916ED555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F779D9B0-B918-463A-B036-D1B9916ED555}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AFBB48D-D0F0-423D-9FEC-1C178E098390}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F779D9B0-B918-463A-B036-D1B9916ED555} = {21D98C73-2B86-4F80-812B-8BF248723DD5}
 	EndGlobalSection
 EndGlobal
