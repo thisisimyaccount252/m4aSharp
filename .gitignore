@@ -1,14 +1,14 @@
 
-m4aSharp/.vs/
+.vs/
 
-m4aSharp/src/m4aSharp.Domain/bin/
+src/m4aSharp.Domain/bin/
 
-m4aSharp/src/m4aSharp.Domain/obj/
+src/m4aSharp.Domain/obj/
 
-m4aSharp/src/m4aSharp/bin/
+src/m4aSharp/bin/
 
-m4aSharp/src/m4aSharp/obj/
+src/m4aSharp/obj/
 
-m4aSharp/test/m4aSharp.Domain.Tests/bin/
+test/m4aSharp.Domain.Tests/bin/
 
-m4aSharp/test/m4aSharp.Domain.Tests/obj/
+test/m4aSharp.Domain.Tests/obj/

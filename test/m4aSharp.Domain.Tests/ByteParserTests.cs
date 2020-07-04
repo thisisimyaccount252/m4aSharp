@@ -6,9 +6,9 @@ namespace m4aSharp.Domain.Tests
     public class ByteParserTests
     {
         [Fact]
-        public void Test1()
+        public void ShouldParseType()
         {
-
+            Assert.True(false);
         }
     }
 }
