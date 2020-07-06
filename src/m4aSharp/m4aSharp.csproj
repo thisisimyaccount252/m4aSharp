@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../m4aSharp.Domain/m4aSharp.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
